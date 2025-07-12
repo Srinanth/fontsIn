@@ -2,15 +2,30 @@
   "name": "fontsin",
   "version": "0.0.1",
   "main": "dist/index.js",
+  "description": "Effortless Google Fonts integration with just class names — no CDN, no hassle.",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/Srinanth/fontsIn.git"
+  },
+  "keywords": [
+    "google-fonts",
+    "fonts-library",
+    "web-fonts",
+    "css-classes",
+    "typescript"
+  ],
+  "author": "Srinanth",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/Srinanth/fontsIn/issues"
+  },
+  "homepage": "https://github.com/Srinanth/fontsIn#readme",
+
   "devDependencies": {
     "typescript": "^5.8.3"
   }

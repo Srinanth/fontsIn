@@ -28,7 +28,7 @@ function generateFontCSS(): string {
 }
 
 function getFontUrl(file: string): string {
-  return new URL(`../fonts/${file}`, import.meta.url).toString();
+  return `/fonts/${file}`;
 }
 
 if (typeof document !== 'undefined') {
