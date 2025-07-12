@@ -41,8 +41,8 @@ import { fonts } from 'fontsin';
 
 ## 📚 Available Fonts
 
-| Font Name | Class Name | Preview |
-|----------|------------|---------|
+| Font Name | Class Name |
+|----------|------------|
 | **Bungee Spice** | `bunge-orange` | 
 | **Manufacturing Consent (Civic)** | `civic-link` | 
 | **Roboto Condensed Black** | `robotoCondensed-black` | 
