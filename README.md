@@ -43,26 +43,25 @@ import { fonts } from 'fontsin';
 
 | Font Name | Class Name | Preview |
 |----------|------------|---------|
-| **Bungee Spice** | `bunge-orange` | <span style="font-family: 'Bungee Spice', cursive;">Bungee Spice</span> |
-| **Manufacturing Consent (Civic)** | `civic-link` | <span style="font-family: 'Manufacturing Consent';">Manufacturing Consent</span> |
-| **Roboto Condensed Black** | `robotoCondensed-black` | <span style="font-family: 'Roboto Condensed'; font-weight: 900;">Roboto Condensed Black</span> |
-| **Roboto Condensed Black Italic** | `robotoCondensed-black-italic` | <span style="font-family: 'Roboto Condensed'; font-weight: 900; font-style: italic;">Roboto Condensed Black Italic</span> |
-| **Roboto Condensed Bold** | `robotoCondensed-bold` | <span style="font-family: 'Roboto Condensed'; font-weight: bold;">Roboto Condensed Bold</span> |
-| **Roboto Condensed Bold Italic** | `robotoCondensed-bold-italic` | <span style="font-family: 'Roboto Condensed'; font-weight: bold; font-style: italic;">Roboto Condensed Bold Italic</span> |
-| **Roboto Condensed Extra Bold** | `robotoCondensed-extra-bold` | <span style="font-family: 'Roboto Condensed'; font-weight: 800;">Roboto Condensed Extra Bold</span> |
-| **Roboto Condensed Extra Bold Italic** | `robotoCondensed-extra-bold-italic` | <span style="font-family: 'Roboto Condensed'; font-weight: 800; font-style: italic;">Roboto Condensed Extra Bold Italic</span> |
-| **Roboto Condensed Extra Light** | `robotoCondensed-extra-light` | <span style="font-family: 'Roboto Condensed'; font-weight: 200;">Roboto Condensed Extra Light</span> |
-| **Roboto Condensed Extra Light Italic** | `robotoCondensed-extra-light-italic` | <span style="font-family: 'Roboto Condensed'; font-weight: 200; font-style: italic;">Roboto Condensed Extra Light Italic</span> |
-| **Roboto Condensed Italic** | `robotoCondensed-italic` | <span style="font-family: 'Roboto Condensed'; font-style: italic;">Roboto Condensed Italic</span> |
-| **Roboto Condensed Light** | `robotoCondensed-light` | <span style="font-family: 'Roboto Condensed'; font-weight: 300;">Roboto Condensed Light</span> |
-| **Roboto Condensed Medium** | `robotoCondensed-medium` | <span style="font-family: 'Roboto Condensed'; font-weight: 500;">Roboto Condensed Medium</span> |
-| **Roboto Condensed Medium Italic** | `robotoCondensed-medium-italic` | <span style="font-family: 'Roboto Condensed'; font-weight: 500; font-style: italic;">Roboto Condensed Medium Italic</span> |
-| **Roboto Condensed Regular** | `robotoCondensed-regular` | <span style="font-family: 'Roboto Condensed';">Roboto Condensed Regular</span> |
-| **Roboto Condensed Semi Bold** | `robotoCondensed-semi-bold` | <span style="font-family: 'Roboto Condensed'; font-weight: 600;">Roboto Condensed Semi Bold</span> |
-| **Roboto Condensed Semi Bold Italic** | `robotoCondensed-semi-bold-italic` | <span style="font-family: 'Roboto Condensed'; font-weight: 600; font-style: italic;">Roboto Condensed Semi Bold Italic</span> |
-| **Roboto Condensed Thin** | `robotoCondensed-thin` | <span style="font-family: 'Roboto Condensed'; font-weight: 100;">Roboto Condensed Thin</span> |
-| **Roboto Condensed Thin Italic** | `robotoCondensed-thin-italic` | <span style="font-family: 'Roboto Condensed'; font-weight: 100; font-style: italic;">Roboto Condensed Thin Italic</span> |
-
+| **Bungee Spice** | `bunge-orange` | 
+| **Manufacturing Consent (Civic)** | `civic-link` | 
+| **Roboto Condensed Black** | `robotoCondensed-black` | 
+| **Roboto Condensed Black Italic** | `robotoCondensed-black-italic` | 
+| **Roboto Condensed Bold** | `robotoCondensed-bold` |
+| **Roboto Condensed Bold Italic** | `robotoCondensed-bold-italic` | 
+| **Roboto Condensed Extra Bold** | `robotoCondensed-extra-bold` | 
+| **Roboto Condensed Extra Bold Italic** | `robotoCondensed-extra-bold-italic` | 
+| **Roboto Condensed Extra Light** | `robotoCondensed-extra-light` |
+| **Roboto Condensed Extra Light Italic** | `robotoCondensed-extra-light-italic` | 
+| **Roboto Condensed Italic** | `robotoCondensed-italic` |
+| **Roboto Condensed Light** | `robotoCondensed-light` | 
+| **Roboto Condensed Medium** | `robotoCondensed-medium` | 
+| **Roboto Condensed Medium Italic** | `robotoCondensed-medium-italic` | 
+| **Roboto Condensed Regular** | `robotoCondensed-regular` | 
+| **Roboto Condensed Semi Bold** | `robotoCondensed-semi-bold` |
+| **Roboto Condensed Semi Bold Italic** | `robotoCondensed-semi-bold-italic` | 
+| **Roboto Condensed Thin** | `robotoCondensed-thin` |
+| **Roboto Condensed Thin Italic** | `robotoCondensed-thin-italic` |
 ---
 
 ## 🌐 Google Fonts Reference
