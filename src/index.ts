@@ -28,6 +28,7 @@ function generateFontCSS(): string {
 }
 
 function getFontUrl(file: string): string {
+  //have to update paths 
   return `/fonts/${file}`;
 }
 
