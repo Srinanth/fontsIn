@@ -1,6 +1,6 @@
 export interface font {
   name: string;
-  href: string; // Google CDN link
+  href: string; 
   className: string;
   fontFamily: string;
 }

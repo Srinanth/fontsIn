@@ -39,30 +39,30 @@ import { fonts } from 'fontsin';
 
 ---
 
-## 📚 Available Fonts
+# Font Class Usage
 
-| Font Name | Class Name |
-|----------|------------|
-| **Bungee Spice** | `bunge-orange` | 
-| **Manufacturing Consent (Civic)** | `civic-link` | 
-| **Roboto Condensed Black** | `robotoCondensed-black` | 
-| **Roboto Condensed Black Italic** | `robotoCondensed-black-italic` | 
-| **Roboto Condensed Bold** | `robotoCondensed-bold` |
-| **Roboto Condensed Bold Italic** | `robotoCondensed-bold-italic` | 
-| **Roboto Condensed Extra Bold** | `robotoCondensed-extra-bold` | 
-| **Roboto Condensed Extra Bold Italic** | `robotoCondensed-extra-bold-italic` | 
-| **Roboto Condensed Extra Light** | `robotoCondensed-extra-light` |
-| **Roboto Condensed Extra Light Italic** | `robotoCondensed-extra-light-italic` | 
-| **Roboto Condensed Italic** | `robotoCondensed-italic` |
-| **Roboto Condensed Light** | `robotoCondensed-light` | 
-| **Roboto Condensed Medium** | `robotoCondensed-medium` | 
-| **Roboto Condensed Medium Italic** | `robotoCondensed-medium-italic` | 
-| **Roboto Condensed Regular** | `robotoCondensed-regular` | 
-| **Roboto Condensed Semi Bold** | `robotoCondensed-semi-bold` |
-| **Roboto Condensed Semi Bold Italic** | `robotoCondensed-semi-bold-italic` | 
-| **Roboto Condensed Thin** | `robotoCondensed-thin` |
-| **Roboto Condensed Thin Italic** | `robotoCondensed-thin-italic` |
+This document lists the available font class names based on the fonts currently loaded via Google Fonts CDN.
+
+| Font Name              | Class Name         | Example Usage                                       |
+|------------------------|--------------------|------------------------------------------------------|
+| **Bungee Spice**       | `bunge-orange`      | `<p class="bunge-orange">Bungee Text</p>`           |
+| **Roboto Condensed**   | `robotoCondensed`   | `<p class="robotoCondensed font-bold italic">Bold Italic Roboto Condensed</p>` |
+
 ---
+
+## Roboto Condensed Style Examples (Using CSS)
+
+| Style                          | Usage Example                                                   |
+|--------------------------------|------------------------------------------------------------------|
+| Regular (400)                  | `<p class="robotoCondensed font-normal">Regular text</p>`       |
+| Thin (100)                     | `<p class="robotoCondensed font-thin">Thin text</p>`            |
+| Extra Light (200)              | `<p class="robotoCondensed font-extralight">Extra Light</p>`    |
+| Light (300)                    | `<p class="robotoCondensed font-light">Light</p>`               |
+| Medium (500)                   | `<p class="robotoCondensed font-medium">Medium</p>`             |
+| Semi Bold (600)                | `<p class="robotoCondensed font-semibold">Semi Bold</p>`        |
+| Bold (700)                     | `<p class="robotoCondensed font-bold">Bold</p>`                 |
+| Italic                         | `<p class="robotoCondensed italic">Italic</p>`                  |
+| Bold Italic                    | `<p class="robotoCondensed font-bold italic">Bold Italic</p>`   |
 
 ## 🌐 Google Fonts Reference
 
