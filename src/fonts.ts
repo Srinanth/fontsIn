@@ -1,181 +1,22 @@
 export interface font {
   name: string;
-  file: string;
-  weight?: string;
-  style?: string;
+  href: string; // Google CDN link
   className: string;
-  format: string;
+  fontFamily: string;
 }
 
 export const fonts: font[] = [
   {
     name: "Bungee",
-    file: "bunge/BungeeSpice-Regular.ttf",
-    weight: "normal",
-    style: "normal",
+    href: "https://fonts.googleapis.com/css2?family=Bungee&display=swap",
     className: "bunge-orange",
-    format: "truetype"
+    fontFamily: "'Bungee', sans-serif"
   },
-  {
-    name:"Civic",
-    file: "ManufacturingConsent/ManufacturingConsent-Regular.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "civic-link",
-    format: "truetype"
 
-  },
   {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-Black.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-black",
-    format: "truetype"
-
-  },
-  {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-BlackItalic.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-black-italic",
-    format: "truetype"
-
-  },
-  {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-Bold.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-bold",
-    format: "truetype"
-
-  },
-  {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-BoldItalic.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-bold-italic",
-    format: "truetype"
-
-  },
-  {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-ExtraBold.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-extra-bold",
-    format: "truetype"
-
-  },
-  {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-ExtraBoldItalic.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-extra-bold-italic",
-    format: "truetype"
-
-  },
-  {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-ExtraLight.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-extra-light",
-    format: "truetype"
-
-  },
-  {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-ExtraLightItalic.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-extra-light-italic",
-    format: "truetype"
-
-  },
-  {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-Italic.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-italic",
-    format: "truetype"
-
-  },
-  {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-Light.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-light",
-    format: "truetype"
-
-  },
-  {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-Medium.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-medium",
-    format: "truetype"
-
-  },
-  {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-MediumItalic.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-medium-italic",
-    format: "truetype"
-
-  },
-  {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-Regular.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-regular",
-    format: "truetype"
-
-  },
-  {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-SemiBold.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-semi-bold",
-    format: "truetype"
-
-  },
-  {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-SemiBoldItalic.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-semi-bold-italic",
-    format: "truetype"
-
-  },
-  {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-Thin.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-thin",
-    format: "truetype"
-
-  },
-  {
-    name:"Roboto",
-    file: "robotoCondensed/RobotoCondensed-ThinItalic.ttf",
-    weight: "normal",
-    style: "normal",
-    className: "robotoCondensed-thin-italic",
-    format: "truetype"
-
+    name: "Roboto Condensed",
+    href: "https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap",
+    className: "robotoCondensed",
+    fontFamily: "'Roboto Condensed', sans-serif"
   },
 ];

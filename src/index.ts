@@ -5,31 +5,26 @@ let fontsInjected = false;
 export function injectFonts(): void {
   if (fontsInjected || typeof document === 'undefined') return;
 
+  fonts.forEach(font => {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = font.href;
+    document.head.appendChild(link);
+  });
+
   const style = document.createElement('style');
-  style.textContent = generateFontCSS();
+  style.textContent = generateFontClasses();
   document.head.appendChild(style);
+
   fontsInjected = true;
 }
 
-function generateFontCSS(): string {
+function generateFontClasses(): string {
   return fonts.map(font => `
-    @font-face {
-      font-family: '${font.name}';
-      src: url('${getFontUrl(font.file)}') format('${font.format}');
-      font-weight: ${font.weight ?? 'normal'};
-      font-style: ${font.style ?? 'normal'};
-      font-display: swap;
-    }
-
     .${font.className} {
-      font-family: '${font.name}', sans-serif;
+      font-family: ${font.fontFamily};
     }
   `).join('\n');
-}
-
-function getFontUrl(file: string): string {
-  //have to update paths 
-  return `/fonts/${file}`;
 }
 
 if (typeof document !== 'undefined') {
