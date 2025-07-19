@@ -1,3 +1,5 @@
+[![NPM Version](https://img.shields.io/npm/v/fontsin?color=F3FC6F)](https://www.npmjs.com/package/fontsin)
+[![NPM Downloads](https://img.shields.io/npm/dt/fontsin?color=F3FC6F)](https://www.npmjs.com/package/fontsin)
 # 🎨 FontsIn
 
 A simple TypeScript utility that lets you **use Google Fonts via class names** — no need to copy-paste `<link>` tags or configure `@font-face` rules manually.
