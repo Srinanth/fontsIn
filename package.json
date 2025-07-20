@@ -1,6 +1,6 @@
 {
   "name": "fontsin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "description": "Effortless Google Fonts integration with just class names — no CDN, no hassle.",
   "types": "dist/index.d.ts",
