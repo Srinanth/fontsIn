@@ -115,3 +115,6 @@ npm install
 Then create a branch, make your changes, and submit a PR.
 
 ---
+⭐ If you find this package useful, please consider [dropping a star](https://github.com/Srinanth/fontsIn) on GitHub!
+
+---
