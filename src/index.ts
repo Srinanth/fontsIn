@@ -2,7 +2,7 @@ import { fonts } from './fonts';
 
 let fontsInjected = false;
 
-export function injectFonts(): void {
+export function fontsin(): void {
   if (fontsInjected || typeof document === 'undefined') return;
 
   fonts.forEach(font => {
@@ -28,7 +28,7 @@ function generateFontClasses(): string {
 }
 
 if (typeof document !== 'undefined') {
-  injectFonts();
+  fontsin();
 }
 
 export { fonts };
